@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home Market — Catálogo de Descanso Premium</title>
+  <meta name="description" content="Camas, cabeceras, muebles y accesorios para transformar tu descanso en bienestar real. City Mall Tegucigalpa." />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════════
+       HEADER
+  ═══════════════════════════════════════════ -->
+  <header class="header" id="header">
+    <div class="header-inner container">
+      <a href="#" class="logo" aria-label="Home Market">
+        <img src="img/logo.png" alt="Home Market logo" class="logo-img" />
+      </a>
+      <nav class="header-nav">
+        <a href="#catalogo">Catálogo</a>
+        <a href="#beneficios">Beneficios</a>
+        <a href="https://wa.me/50494700698?text=Hola,%20me%20interesa%20conocer%20m%C3%A1s%20sobre%20Home%20Market" target="_blank" class="btn-nav-wa">📲 WhatsApp</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ═══════════════════════════════════════════
+       HERO
+  ═══════════════════════════════════════════ -->
+  <section class="hero">
+    <div class="hero-bg">
+      <img src="img/hero.jpg" alt="Dormitorio premium Home Market" class="hero-img" onerror="this.style.display='none'" />
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="hero-content container">
+      <p class="hero-eyebrow">Bienestar desde el dormitorio</p>
+      <h1 class="hero-title">Dormir mejor.<br/><em>Para Vivir mejor.</em></h1>
+      <p class="hero-subtitle">Camas, ropa de cama premium, cabeceras, muebles y accesorios para transformar tu descanso en bienestar real.</p>
+      <div class="hero-buttons">
+        <a href="#catalogo" class="btn btn-primary">Ver catálogo</a>
+        <a href="https://wa.me/50494700698?text=Hola,%20quiero%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Home%20Market" target="_blank" class="btn btn-wa">💬 Consultar por WhatsApp</a>
+      </div>
+      <div class="hero-badges">
+        <span>🏨 Calidad hotelera</span>
+        <span>📦 Envíos nacionales</span>
+        <span>💳 Apartados 0% interés</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       CATALOGO
+  ═══════════════════════════════════════════ -->
+  <section class="catalogo" id="catalogo">
+    <div class="container">
+      <div class="seccion-header">
+        <p class="seccion-eyebrow">Nuestros productos</p>
+        <h2 class="seccion-titulo">Elige por categoría</h2>
+        <p class="seccion-subtitulo">Encuentra la pieza ideal para tu dormitorio.</p>
+      </div>
+
+      <!-- Buscador -->
+      <div class="buscador-wrap">
+        <div class="buscador">
+          <span class="buscador-icon">🔍</span>
+          <input type="text" id="buscador" placeholder="Buscar producto..." aria-label="Buscar producto" />
+          <button class="buscador-clear" id="buscadorClear" aria-label="Limpiar búsqueda">✕</button>
+        </div>
+      </div>
+
+      <!-- Filtros -->
+      <div class="filtros" role="group" aria-label="Filtrar por categoría">
+        <button class="filtro activo" data-cat="Todos">Todos</button>
+        <button class="filtro" data-cat="Camas">Camas</button>
+        <button class="filtro" data-cat="Cabeceras">Cabeceras</button>
+        <button class="filtro" data-cat="Closets">Closets</button>
+        <button class="filtro" data-cat="Muebles">Muebles</button>
+        <button class="filtro" data-cat="Almohadas">Almohadas</button>
+        <button class="filtro" data-cat="Accesorios">Accesorios</button>
+        <button class="filtro" data-cat="Línea Hotelera">🏨 Línea Hotelera</button>
+      </div>
+
+      <!-- Grid de productos -->
+      <div class="productos-grid" id="productosGrid">
+        <!-- Generado dinámicamente por script.js -->
+      </div>
+
+      <!-- Estado vacío -->
+      <div class="sin-resultados" id="sinResultados" style="display:none;">
+        <p>😴 No encontramos productos con esa búsqueda.</p>
+        <button onclick="resetFiltros()">Ver todos</button>
+      </div>
+
+      <!-- Loading -->
+      <div class="loading" id="loading">
+        <div class="loading-spinner"></div>
+        <p>Cargando productos...</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       BENEFICIOS
+  ═══════════════════════════════════════════ -->
+  <section class="beneficios" id="beneficios">
+    <div class="container">
+      <div class="seccion-header">
+        <p class="seccion-eyebrow">¿Por qué elegirnos?</p>
+        <h2 class="seccion-titulo">Compra con confianza</h2>
+      </div>
+      <div class="beneficios-grid">
+        <div class="beneficio-card">
+          <div class="beneficio-icon">🛏️</div>
+          <h3>Asesoría personalizada</h3>
+          <p>Te ayudamos a elegir la cama ideal según tu cuerpo, postura y presupuesto. Sin presión.</p>
+        </div>
+        <div class="beneficio-card">
+          <div class="beneficio-icon">💳</div>
+          <h3>Apartados sin interés</h3>
+          <p>Aparta tu producto con una cuota inicial de L.3,000 y tienes Hasta 3 meses para pagar el resto</p>
+        </div>
+        <div class="beneficio-card">
+          <div class="beneficio-icon">💳</div>
+          <h3>Extrafinanciamiento sin interés</h3>
+          <p>Paga a 12 cuotas mensuales iguales, con tu tarjeta BAC, Ficohsa o Promerica</p>
+        </div>
+        <div class="beneficio-card">
+          <div class="beneficio-icon">🚚</div>
+          <h3>Envíos a nivel nacional</h3>
+          <p>Llevamos tu pedido hasta la puerta de tu casa, a cualquier ciudad de Honduras.</p>
+        </div>
+        <div class="beneficio-card">
+          <div class="beneficio-icon">📍</div>
+          <h3>City Mall Tegucigalpa 2do Nivel</h3>
+          <p>Visítanos y prueba tu cama antes de comprar. Nuestros expertos te atenderán.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       BANNER CTA
+  ═══════════════════════════════════════════ -->
+  <section class="banner-cta">
+    <div class="container">
+      <div class="banner-cta-inner">
+        <div class="banner-cta-texto">
+          <h2>"Vive mejor.<br/>desde tu dormitorio."</h2>
+          <p>Visitanos en City Mall segundo nivel o escríbenos. Estamos para ayudarte.</p>
+        </div>
+        <a href="https://wa.me/50494700698?text=Hola,%20quiero%20asesor%C3%ADa%20para%20mejorar%20mi%20descanso" target="_blank" class="btn btn-wa btn-lg">
+          💬 Quiero asesoría gratuita
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       FOOTER
+  ═══════════════════════════════════════════ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-marca">
+          <a href="#" class="logo logo-footer" aria-label="Home Market">
+            <img src="img/logo.png" alt="Home Market logo" class="logo-img" />
+          </a>
+          <p>Tu paraíso de bienestar y descanso en Honduras.</p>
+        </div>
+        <div class="footer-info">
+          <h4>Contacto</h4>
+          <ul>
+            <li>📍 City Mall Tegucigalpa 2do Nivel</li>
+            <li>📲 <a href="https://wa.me/50494700698" target="_blank">WhatsApp: 9470-0698</a></li>
+            <li>📸 <a href="https://instagram.com/homemarkethn" target="_blank">@homemarkethn</a></li>
+          </ul>
+        </div>
+        <div class="footer-info">
+          <h4>Categorías</h4>
+          <ul>
+            <li><a href="#" onclick="filtrarCategoria('Camas')">Camas</a></li>
+            <li><a href="#" onclick="filtrarCategoria('Cabeceras')">Cabeceras</a></li>
+            <li><a href="#" onclick="filtrarCategoria('Closets')">Closets</a></li>
+            <li><a href="#" onclick="filtrarCategoria('Línea Hotelera')">Línea Hotelera</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2017 Home Market Honduras · Todos los derechos reservados · <em>Dormir mejor. Vivir mejor.</em></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Modal de producto -->
+  <div class="modal-overlay" id="modalOverlay" role="dialog" aria-modal="true" aria-label="Detalle de producto">
+    <div class="modal">
+      <button class="modal-close" id="modalClose" aria-label="Cerrar">✕</button>
+      <div class="modal-content" id="modalContent">
+        <!-- Rellenado por JS -->
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
