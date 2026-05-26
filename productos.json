@@ -1,0 +1,146 @@
+[
+  {
+    "nombre": "Cama Sealy Serenity",
+    "categoria": "Camas",
+    "descripcion": "Soporte semi-ortopedico avanzado, acolchonada, tela polycotton, resorte pocket.",
+    "medidas": "Queen (2.00 metros alto x 1.54 metros ancho)",
+    "precio": "Desde L.2,500 mensual 12 cuotas",
+    "promo": "40% OFF",
+    "imagen": "productos/sealyserenity.png"
+  },
+  {
+    "nombre": "Cama Kangaroo Ortho-Cel",
+    "categoria": "Camas",
+    "descripcion": "Ideal para personas con dolor de espalda, soporte ultra firme.",
+    "medidas": "Matrimonial (190 x 100 cm)",
+    "precio": "Cuota L.2,000 mensual",
+    "promo": "40% OFF",
+    "imagen": "productos/kangarooorthocelfinal.png"
+  },
+  {
+    "nombre": "Cabecera Stand",
+    "categoria": "Cabeceras",
+    "descripcion": "Diseño moderno tapizado en tela premium. Transforma tu habitación al instante.",
+    "medidas": "Queen y King",
+    "precio": "Cuota L.1,250 mensual",
+    "promo": "Nuevo",
+    "imagen": "productos/cabeceracafe2.png"
+  },
+  {
+    "nombre": "Cabecera Natural Grey",
+    "categoria": "Cabeceras",
+    "descripcion": "Madera maciza con acabado natural. Estilo escandinavo para un dormitorio cálido y aesthetic.",
+    "medidas": "Matrimonial, Queen y King",
+    "precio": "Cuota L.1,250 mensual",
+    "promo": "",
+    "imagen": "productos/cabeceragris1.png"
+  },
+  {
+    "nombre": "Puff Cama Transformable",
+    "categoria": "Muebles",
+    "descripcion": "Organiza tu vida desde el dormitorio. Modular, elegante y fácil de instalar.",
+    "medidas": "Individual Twin",
+    "precio": "Desde L.2,990",
+    "promo": "Últimas unidades",
+    "imagen": "productos/puffmagico2individual.png"
+  },
+  {
+    "nombre": "Closet de Acero Aéreo",
+    "categoria": "Closets",
+    "descripcion": "Líneas limpias, aprovecha el espacio aéreo. Para el dormitorio que siempre quisiste.",
+    "medidas": "4 Tamaños diferentes",
+    "precio": "Consultar precio",
+    "promo": "Nuevo",
+    "imagen": "productos/closetsdeacero.jpg"
+  },
+  {
+    "nombre": "Edredones en Tendencia",
+    "categoria": "Accesorios",
+    "descripcion": "Materiales de calidad, diseños modernos. El toque final para un dormitorio de revista.",
+    "medidas": "Twin, Matrimonial, Queen, King",
+    "precio": "Desde L 2,900",
+    "promo": "",
+    "imagen": "productos/cubrecamas.png"
+  },
+  {
+    "nombre": "Puff Cama Transformable",
+    "categoria": "Muebles",
+    "descripcion": "De puff a colchón individual en segundos. Ideal para visitas o espacios pequeños.",
+    "medidas": "Matrimonial",
+    "precio": "Desde L 3,490",
+    "promo": "Viral",
+    "imagen": "productos/puffmagico1matri.png"
+  },
+  {
+    "nombre": "Almohada Memory Foam Ergonómica",
+    "categoria": "Almohadas",
+    "descripcion": "Diseñada por expertos en descanso. Alivia el dolor de cuello y mejora tu postura mientras duermes.",
+    "medidas": "Estándar y King",
+    "precio": "Desde L 850",
+    "promo": "Más vendida",
+    "imagen": "productos/almohada-memory.jpg"
+  },
+  {
+    "nombre": "Almohada Cervical Doble Contorno",
+    "categoria": "Almohadas",
+    "descripcion": "Para dormir de lado o boca arriba. Contorno inteligente que cuida tu columna toda la noche.",
+    "medidas": "60 x 40 cm",
+    "precio": "Desde L 1,100",
+    "promo": "",
+    "imagen": "productos/almohada-cervical.jpg"
+  },
+  {
+    "nombre": "Pad Memory Foam Hotelero",
+    "categoria": "Accesorios",
+    "descripcion": "Convierte cualquier colchón en cama de hotel en minutos. El accesorio más viral de la tienda.",
+    "medidas": "Matrimonial, Queen y King",
+    "precio": "Cuota L.599 mensual",
+    "promo": "Nuevo",
+    "imagen": "productos/padmemory2.png"
+  },
+  {
+    "nombre": "Sábanas Premium 500 hilos",
+    "categoria": "Accesorios",
+    "descripcion": "Tela suave al tacto, fresca en verano y cálida en invierno. Sensación hotel boutique.",
+    "medidas": "Matrimonial, Queen y King",
+    "precio": "Desde L 980",
+    "promo": "Disponible",
+    "imagen": "productos/sabanas-premium.jpg"
+  },
+  {
+    "nombre": "Edredón Plumón de Ganso",
+    "categoria": "Accesorios",
+    "descripcion": "Ultra suave, ligero y cálido. El edredón favorito de los hoteles 5 estrellas.",
+    "medidas": "Queen y King",
+    "precio": "Desde L 2,800",
+    "promo": "Nuevo",
+    "imagen": "productos/edredon-plumon.jpg"
+  },
+  {
+    "nombre": "Protector de Colchón Impermeable",
+    "categoria": "Accesorios",
+    "descripcion": "Protege tu inversión. Repele líquidos, antiácaros y respirable. Silencioso al dormir.",
+    "medidas": "Matrimonial, Queen y King",
+    "precio": "Desde L 680",
+    "promo": "",
+    "imagen": "productos/protector-colchon.jpg"
+  },
+  {
+    "nombre": "Set Línea Hotelera Premium",
+    "categoria": "Línea Hotelera",
+    "descripcion": "El set completo para dormir como en un hotel 5 estrellas: sábanas, almohadas, pad y protector.",
+    "medidas": "Queen y King",
+    "precio": "Desde L 5,500",
+    "promo": "40% OFF",
+    "imagen": "productos/linea-hotelera.jpg"
+  },
+  {
+    "nombre": "Colchón Línea Hotelera Sealy",
+    "categoria": "Línea Hotelera",
+    "descripcion": "El mismo colchón usado en los mejores hoteles. Firmeza media, ideal para toda la familia.",
+    "medidas": "Queen (152 x 190 cm) y King (193 x 203 cm)",
+    "precio": "Desde L 24,000",
+    "promo": "Más vendido",
+    "imagen": "productos/colchon-hotelero.jpg"
+  }
+]
